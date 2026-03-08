@@ -1,45 +1,60 @@
+/* ===== STILE GENERALE ===== */
 body{
     font-family: Arial, sans-serif;
     margin:0;
     padding:40px;
-    background-color:#0f172a; /* blu scuro */
-    color:#e5e7eb; /* testo chiaro */
+    background-color:#0a0f2c; /* blu scuro molto profondo */
+    color:#e0f7fa; /* testo chiaro leggermente azzurro */
 }
 
+/* ===== TITOLO PRINCIPALE ===== */
 h1{
-    color:#22d3ee; /* turchese */
+    color:#00fff7; /* turchese acceso */
     text-align:center;
     margin-top:30px;
 }
 
+/* ===== TITOLO SEZIONI ===== */
 h2{
-    color:#22d3ee;
+    color:#00fff7; /* turchese */
     margin-top:30px;
+    border-bottom:2px solid #00fff7; /* dettaglio turchese sotto il titolo */
+    padding-bottom:5px;
 }
 
+/* ===== PARAGRAFI ===== */
 p{
     line-height:1.6;
+    color:#cce7ef; /* leggermente più chiaro del testo normale */
 }
 
+/* ===== LINK ===== */
 a{
-    color:#22d3ee;
+    color:#00fff7; /* turchese */
     text-decoration:none;
     font-weight:bold;
 }
 
 a:hover{
-    color:#67e8f9;
+    color:#66fff9; /* turchese chiaro al passaggio */
+    text-decoration:underline;
 }
 
+/* ===== LISTE NELLA HOME ===== */
 ul{
     list-style:none;
     padding:0;
 }
 
 li{
-    background:#1e293b;
+    background:#111837; /* box blu scuro leggermente più chiaro dello sfondo */
     padding:15px;
     margin:10px 0;
-    border-left:4px solid #22d3ee;
+    border-left:4px solid #00fff7; /* bordo turchese */
     border-radius:6px;
+    transition: all 0.3s ease;
+}
+
+li:hover{
+    background:#1a2466; /* effetto hover blu più chiaro */
 }
