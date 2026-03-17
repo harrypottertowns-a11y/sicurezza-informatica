@@ -2,47 +2,52 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<title>Conoscenze</title>
+<title>Conoscenze - Sicurezza Informatica</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="conoscenze">
 
 <nav>
   <a href="index.html">Home</a>
   <a href="introduzione.html">Introduzione</a>
   <a href="prerequisiti.html">Prerequisiti</a>
-  <a href="conoscenze.html">Conoscenze</a>
+  <a href="conoscenze.html" class="active">Conoscenze</a>
   <a href="abilita-competenze.html">Abilità & Competenze</a>
 </nav>
 
+<div class="main-content">
 <h1>Conoscenze</h1>
 
 <div class="card">
-  <h2>
-    <svg width="20" height="20" fill="#00ffff" style="vertical-align:middle; margin-right:8px;">
-      <rect width="20" height="20"/>
-    </svg>
-    Principi e obiettivi della sicurezza informatica
-  </h2>
-  <p>Scrivi qui il testo...</p>
+  <div class="text">
+    <h2>Principi e strumenti della sicurezza</h2>
+    <p>Questa sezione approfondisce principi fondamentali, vulnerabilità, minacce, crittografia e protocolli sicuri.</p>
+    
+    <button class="accordion">Principi e obiettivi della sicurezza informatica</button>
+    <div class="panel"><p>Spiegazione dei principi fondamentali.</p></div>
+    
+    <button class="accordion">Vulnerabilità, minacce e attacchi</button>
+    <div class="panel"><p>Tipi di attacchi informatici.</p></div>
+    
+    <button class="accordion">Crittografia</button>
+    <div class="panel"><p>Simmetrica, asimmetrica e chiave segreta.</p></div>
+    
+    <button class="accordion">Protocolli sicuri</button>
+    <div class="panel"><p>HTTPS, SSL/TLS, IPsec, PGP, SHA.</p></div>
+    
+    <p>Termine utile: <span class="tooltip">GDPR
+      <span class="tooltiptext">Regolamento europeo sulla protezione dei dati personali.</span>
+    </span></p>
+    
+  </div>
 </div>
-
-<div class="card">
-  <h2>
-    <svg width="20" height="20" fill="#00ffff" style="vertical-align:middle; margin-right:8px;">
-      <rect width="20" height="20"/>
-    </svg>
-    Vulnerabilità, minacce e attacchi
-  </h2>
-  <p>Scrivi qui il testo...</p>
-</div>
-
-<!-- Aggiungi qui tutti gli altri argomenti seguendo lo stesso schema -->
 
 <footer>
-  © 2026 Vasiliki Karali - Progetto Sicurezza Informatica
+    © 2026 Mario Rossi - Progetto Sicurezza Informatica
 </footer>
+</div>
 
+<script src="script.js"></script>
 </body>
 </html>
  
