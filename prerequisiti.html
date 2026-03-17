@@ -2,65 +2,48 @@
 <html lang="it">
 <head>
 <meta charset="UTF-8">
-<title>Prerequisiti</title>
+<title>Prerequisiti - Sicurezza Informatica</title>
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="prerequisiti">
 
 <nav>
   <a href="index.html">Home</a>
   <a href="introduzione.html">Introduzione</a>
-  <a href="prerequisiti.html">Prerequisiti</a>
+  <a href="prerequisiti.html" class="active">Prerequisiti</a>
   <a href="conoscenze.html">Conoscenze</a>
   <a href="abilita-competenze.html">Abilità & Competenze</a>
 </nav>
 
+<div class="main-content">
 <h1>Prerequisiti</h1>
 
 <div class="card">
-  <h2>
-    <svg width="20" height="20" fill="#00ffff" style="vertical-align:middle; margin-right:8px;">
-      <rect width="20" height="20"/>
-    </svg>
-    Architettura di Internet
-  </h2>
-  <p>Scrivi qui il testo...</p>
-</div>
-
-<div class="card">
-  <h2>
-    <svg width="20" height="20" fill="#00ffff" style="vertical-align:middle; margin-right:8px;">
-      <rect width="20" height="20"/>
-    </svg>
-    Modello Client/Server
-  </h2>
-  <p>Scrivi qui il testo...</p>
-</div>
-
-<div class="card">
-  <h2>
-    <svg width="20" height="20" fill="#00ffff" style="vertical-align:middle; margin-right:8px;">
-      <rect width="20" height="20"/>
-    </svg>
-    Modello HTTP
-  </h2>
-  <p>Scrivi qui il testo...</p>
-</div>
-
-<div class="card">
-  <h2>
-    <svg width="20" height="20" fill="#00ffff" style="vertical-align:middle; margin-right:8px;">
-      <rect width="20" height="20"/>
-    </svg>
-    Protocollo IP
-  </h2>
-  <p>Scrivi qui il testo...</p>
+  <div class="text">
+    <h2>Conoscenze Necessarie</h2>
+    <p>Prima di approfondire la sicurezza informatica, è utile conoscere architettura Internet, modelli client/server, HTTP e IP.</p>
+    
+    <button class="accordion">Architettura di Internet</button>
+    <div class="panel"><p>Dettagli sulla struttura della rete globale.</p></div>
+    
+    <button class="accordion">Modello e comunicazione client/server</button>
+    <div class="panel"><p>Dettagli sul funzionamento client/server.</p></div>
+    
+    <button class="accordion">Modello HTTP e Protocollo IP</button>
+    <div class="panel"><p>Spiegazione dei protocolli e comunicazione web.</p></div>
+    
+    <p>Termine utile: <span class="tooltip">IP
+      <span class="tooltiptext">Internet Protocol, protocollo principale di rete.</span>
+    </span></p>
+    
+  </div>
 </div>
 
 <footer>
-  © 2026 Vasiliki Karali - Progetto Sicurezza Informatica
+    © 2026 Karali Vasiliki - Progetto Sicurezza Informatica
 </footer>
+</div>
 
+<script src="script.js"></script>
 </body>
 </html>
-  
